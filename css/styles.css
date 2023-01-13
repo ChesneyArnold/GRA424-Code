@@ -6,6 +6,11 @@ body {
     padding-top: 0.4rem;
 }
 
+h2 {
+    font-weight: 300;
+    font-size: 19px;
+}
+
 ul {  
     list-style-type: none;  
     }  
