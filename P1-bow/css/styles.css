@@ -11,7 +11,7 @@
     width: 71.428571vw;
     background-color: white;
     margin: auto;
-    border: 0.25px solid black;
+    border: 0.25px solid rgb(226, 226, 226);
 }
 
 .rectangle2 {
@@ -20,7 +20,7 @@
     width: 42.857143vw;
     background-color: white;
     margin: auto;
-    border: 0.25px solid black;
+    border: 0.25px solid rgb(226, 226, 226);
 }
 
 .rectangle3 {
