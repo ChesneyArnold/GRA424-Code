@@ -47,6 +47,16 @@
     top: -57.125vh;
 }
 
+.box4 {
+    display: flex;
+    width: 14.285714vw;
+    height: 14.285714vh;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+    top: -85vh;
+}
+
 
 
 .line-left {
@@ -143,8 +153,8 @@
 
 .line3-left {
     display: flex;
-    transform: rotate(50deg);
-    background-color: rgb(211, 34, 34);
+    transform: rotate(-30deg);
+    background-color: rgb(255, 255, 255);
     width: 1.65vw;
     height: 14.285714vh;
     margin: auto;
@@ -153,3 +163,23 @@
 }
 
 
+.line3-right {
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    transform: rotate(-30deg);
+    width: 1.65vw;
+    height: 14.285714vh;
+    margin: auto;
+    margin-right: 0.5vh;
+    margin-top: -1vh;
+}
+
+.line3 {
+    display: flex;
+    transform: rotate(-30deg);
+    background-color: rgb(255, 255, 255);
+    width: 1.65vw;
+    height: 14.285714vh;
+    margin: auto;
+    margin-top: -1vh;
+}
