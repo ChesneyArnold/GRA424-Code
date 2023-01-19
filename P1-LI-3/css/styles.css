@@ -35,6 +35,8 @@
     overflow: hidden;
     position: relative;
     top: -28.17384281vh;
+    overflow: hidden;
+    background-color: rgba(50, 187, 68, 0);
 }
 
 .box3 {
@@ -77,35 +79,13 @@
 
 .line1 {
     display: flex;
-    transform: rotate(30deg);
-    background-color: #fff;
+    background-color: rgb(255, 255, 255);
     width: 1.65vw;
-    height: 14.285714vh;
+    height: 42vh;
     margin: auto;
-    margin-top: -1vh;
-}
-
-.line1-left {
-    display: flex;
     transform: rotate(30deg);
-    background-color: #fff;
-    width: 1.65vw;
-    height: 14.285714vh;
-    margin: auto;
-    margin-left: 0.5vh;
-    margin-top: -1vh;
-}
-
-.line1-right {
-    display: flex;
-    transform: rotate(30deg);
-    background-color: #fff;
-    width: 1.65vw;
-    height: 14.285714vh;
-    margin: auto;
-    margin-right: 0.5vh;
-    margin-top: -1vh;
-}
+    transform-origin: 21rem;
+} 
 
 .line2-left {
     display: flex;

@@ -16,7 +16,7 @@
 
 .box1 {
     display: flex;
-    background-color: #fff;
+    background-color: rgb(255, 255, 255);
     width: 42.857143vw;
     height: 42.857143vh;
     margin: auto;
@@ -25,7 +25,7 @@
 
 .box2 {
     display: flex;
-    background-color: rgba(31, 219, 87, 0);
+    background-color: rgba(229, 19, 19, 0);
     border-color: #000 0.25px;
     width: 14.285714vw;
     height: 14.285714vh;
@@ -33,8 +33,9 @@
     top:0;
     bottom: 0;
     margin: auto;
-    
-    
+    margin-left: 15vw;
+    overflow: hidden;
+
 }
 
 .line-left {
@@ -67,7 +68,8 @@
     display: flex;
     background-color: rgb(255, 255, 255);
     width: 1.65vw;
-    height: 14.2857143vh;
+    height: 42vh;
     margin: auto;
-    transform: rotate(30deg)
-}
+    transform: rotate(30deg);
+    transform-origin: 21rem;
+} 
